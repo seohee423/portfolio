@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+body {
+  width: 100%;
+  color: var(--color-black);
+  /* padding: 0px 50px; */
+  background-color: var(--color-white);
+  overflow-x: hidden;
+  /* 프로젝트 슬라이드 가로 스크롤 숨김 */
+  transition: background-color 1s ease-in-out;
+  cursor: url(../../images/cursor.png), pointer;
+  scroll-behavior: smooth;
+}
+
+
+/* 스크롤바 */
+body::-webkit-scrollbar {
+  width: 14px;
+}
+body::-webkit-scrollbar-track {
+  background-color: var(--color-white);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-black);
+  border-radius: 4px;
+}
+
+/***** header *****/
+header {
+  padding: 0px 50px;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Nohemi';
+  font-weight: 500;
+  font-size: var(--font-pc-sm);
+  color: var(--color-black);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+header .global-menu {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  /* width: 300px; */
+  width: 350px;
+  text-align: center;
+}
+
+header .global-menu li {
+  transition: font-style 2s ease-in-out;
+}
+
+header .global-menu li:hover a {
+  font-style: italic;
+}
+
+/***** footer *****/
+footer {
+  padding: 0px 50px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Nohemi';
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--color-black);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
+
+footer .contact-btn {
+  display: flex;
+  cursor: pointer;
+}
+
+footer .contact-btn img {
+  margin-right: 4px;
+  width: 10px;
+  height: 10px;
+  animation: flower 5s infinite linear;
+}
+
+@keyframes flower { 
+  100% {transform: rotate(720deg);}
+}
+
+footer .contact-btn a {
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+
+@font-face {
+	font-family: 'MangoGrotesque';
+	font-weight: 400;
+	font-display: swap;
+	src: local('MangoGrotesque Regular'), url(./MangoGrotesque-Regular.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'MangoGrotesque';
+	font-weight: 500;
+	font-display: swap;
+	src: local('MangoGrotesque Medium'), url(./MangoGrotesque-Medium.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'MangoGrotesque';
+	font-weight: 600;
+	font-display: swap;
+	src: local('MangoGrotesque SemiBold'), url(./MangoGrotesque-SemiBold.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'MangoGrotesque';
+	font-weight: 700;
+	font-display: swap;
+	src: local('MangoGrotesque Bold'), url(./MangoGrotesque-Bold.woff2) format('woff2');
+}

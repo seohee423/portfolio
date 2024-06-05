@@ -1,0 +1,21 @@
+
+@font-face {
+	font-family: 'Nohemi';
+	font-weight: 400;
+	font-display: swap;
+	src: local('Nohemi Regular'), url(./Nohemi-Regular-BF6438cc579d934.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Nohemi';
+	font-weight: 500;
+	font-display: swap;
+	src: local('Nohemi Medium'), url(./Nohemi-Medium-BF6438cc57ddecd.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Nohemi';
+	font-weight: 600;
+	font-display: swap;
+	src: local('Nohemi SemiBold'), url(./Nohemi-SemiBold-BF6438cc57db2ff.woff) format('woff');
+}
