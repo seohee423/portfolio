@@ -479,11 +479,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 /* global-menu scroll event */
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   const globalMenuLinks = document.querySelectorAll('.global-menu a');
 
   globalMenuLinks.forEach(link => {
-    link.addEventListener('click', function(e) {
+    link.addEventListener('click', function (e) {
       e.preventDefault();
 
       const targetId = this.getAttribute('href').substring(1);
@@ -496,4 +496,3 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-/* mouse wheel event */

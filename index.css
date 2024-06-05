@@ -155,7 +155,7 @@
   font-weight: 600;
 }
 
-.about-wrapper .about-txt {
+.about-wrapper .about-imgbox-wrapper .about-txt {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -204,36 +204,42 @@
 }
 
 /* 이미지 박스 */
-.about-wrapper .about-imgbox {
+.about-wrapper .about-imgbox-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-wrapper .about-imgbox-wrapper .about-imgbox {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 70px;
 }
 
-.about-wrapper .about-imgbox p {
+.about-wrapper .about-imgbox-wrapper .about-imgbox p {
   font-family: 'Nohemi';
   font-weight: 400;
   font-size: var(--font-pc-xsm);
   line-height: 18px;
 }
 
-.about-wrapper .about-imgbox p:first-child {
+.about-wrapper .about-imgbox-wrapper .about-imgbox p:first-child {
   text-align: left;
 }
 
-.about-wrapper .about-imgbox p:last-child {
+.about-wrapper .about-imgbox-wrapper .about-imgbox p:last-child {
   text-align: right;
 }
 
-.about-wrapper .about-imgbox img {
+.about-wrapper .about-imgbox-wrapper .about-imgbox img {
   width: 508px;
   height: 380px;
   background-color: #ddd;
   border-radius: 10px;
 }
 
-.about-wrapper .about-seohee {
+.about-wrapper .about-imgbox-wrapper .about-seohee {
   font-family: 'Nohemi';
   font-weight: 400;
   font-size: var(--font-pc-sm);
@@ -402,7 +408,7 @@
   margin: 0 auto;
   margin-left: 50px;
   cursor: pointer;
-  transition: transform 2s ease-in-out;
+  transition: transform 0.7s ease-in-out;
   transform: translateX(100%); /* 초기 위치를 오른쪽으로 이동 */
 }
 
@@ -578,14 +584,20 @@
 }
 
 /* contents */
+.skillstools-contents-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
 .skillstools-wrapper .skillstools-contents-box {
-  /* width: calc(100% - 100px); */
   width: 100%;
   height: 60vh;
   margin: 150px 0px;
   display: grid;
   grid-template-columns: 0.8fr 15px 0.8fr 15px 1fr;
-  grid-template-rows: 70px 0.8fr 15px 0.5fr;
+  grid-template-rows: 70px 0.5fr 15px 0.5fr;
 }
 
 .skillstools-wrapper .skillstools-contents-box .skillstools-category {
