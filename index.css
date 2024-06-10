@@ -233,8 +233,8 @@
 }
 
 .about-wrapper .about-imgbox-wrapper .about-imgbox img {
-  width: 508px;
-  height: 380px;
+  width: 600px;
+  /* height: 380px; */
   background-color: #ddd;
   border-radius: 10px;
 }
