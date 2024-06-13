@@ -32,8 +32,8 @@ https://seohee423.github.io/portfolio/
 ## 240529 
 #### css
 - 각 페이지별 적용할 이벤트 정리<br>
-&lt;마우스 hover 이벤트 적용&gt;<br>
-- header 메뉴, about 키워드 박스, project 더보기 버튼, skills&tools 텍스트 박스, contact 이메일/링크<br>
+- 마우스 hover 이벤트 적용<br>
+header 메뉴, about 키워드 박스, project 더보기 버튼, skills&tools 텍스트 박스, contact 이메일/링크<br>
 - about 페이지 소개글 드래그 시 색상 변경 : ::selection으로 설정
 
 ## 240530
@@ -44,7 +44,7 @@ https://seohee423.github.io/portfolio/
 
 ## 240531
 #### js
-project 영역 슬라이드 박스 작업<br>
+&lt;project 영역 슬라이드 박스 작업&gt;<br>
 - 슬라이드 버튼 사이즈가 작아 사용자가 인식하기 어려움<br>
   → 버튼 없이 박스 자체를 클릭해서 슬라이드할 수 있도록 디자인 변경<br>
 - 좌측 이미지 박스가 중앙 정렬되지 않는 문제<br>
@@ -53,7 +53,7 @@ project 영역 슬라이드 박스 작업<br>
 
 ## 240601  
 #### js
-project 영역 슬라이드 박스 작업<br>
+&lt;project 영역 슬라이드 박스 작업&gt;<br>
 - 우측 슬라이드를 클릭했을 때 너무 많이 이동해 슬라이드 좌측이 잘려 보이는 문제<br>
   → 슬라이드 전체 너비 지정, 우측 슬라이드를 클릭했을 때 슬라이드 전체가 X축 기준 좌측으로 이동하도록 translateX에 % 단위로 값을 설정함<br>
 - 스크립트가 슬라이드 4개에 동일하게 적용되지 않는 문제 발생<br>
