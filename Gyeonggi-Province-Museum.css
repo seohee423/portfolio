@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/***** project info *****/
+.project-info-wrapper {
+  background: url(./images/sub-page/gyeonggi-province-museum.png);
+  background-position: 50% 30%;
+  background-size: 140%;
+  background-repeat: no-repeat;
+}
+
+
+/***** problems&solutions *****/
+.problemssolutions-wrapper {
+  padding: 100px 0px 30px;
+}
+
+.problemssolutions-wrapper .contents-details .problem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: var(--font-pc-lg);
+  font-weight: 600;
+}
+
+.problemssolutions-wrapper .contents-details .problem .flower-icon {
+  margin-right: 10px;
+}
+
+.problemssolutions-wrapper .contents-details .solution {
+  margin-bottom: 70px;
+}
+
+.problemssolutions-wrapper .contents-details ul li h5 {
+  font-size: var(--font-pc-md);
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+.problemssolutions-wrapper .contents-details ul li p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.problemssolutions-wrapper .contents-details ul .z-index-img-wrapper {
+  display: flex;
+  width: 100%;
+  margin: -50px 0px 70px;
+}
+
+.problemssolutions-wrapper .contents-details ul .z-index-img-wrapper img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.problemssolutions-wrapper .contents-details ul .code-img-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: -50px 0px 70px;
+}
+
+.problemssolutions-wrapper .contents-details ul .code-img-wrapper img {
+  border-radius: 10px;
+}
+
+.problemssolutions-wrapper .contents-details ul .code-img-wrapper img:nth-child(1) {
+  width: 65%;
+}
+
+.problemssolutions-wrapper .contents-details ul .code-img-wrapper img:nth-child(2) {
+  width: 34%;
+}
+
+/***** result *****/
+.result-wrapper .result .good {
+  margin-right: 70px;
+  width: 75%;
+}

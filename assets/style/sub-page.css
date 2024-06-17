@@ -90,10 +90,6 @@ header.on {
 .project-info-wrapper {
   height: 60vh;
   padding: 0px 90px;
-  background: url(./images/sub-page/gyeonggi-province-museum.png);
-  background-position: 50% 30%;
-  background-size: 140%;
-  background-repeat: no-repeat;
   color: var(--color-white);
   display: flex;
   align-items: center;
@@ -276,62 +272,8 @@ header.on {
   margin-right: 10px;
 }
 
-/***** problems&solutions *****/
-.problemssolutions-wrapper .contents-details .problem {
-  display: flex;
-  align-items: center;
-  margin-bottom: 15px;
-  font-size: var(--font-pc-lg);
-  font-weight: 600;
-}
 
-.problemssolutions-wrapper .contents-details .problem .flower-icon {
-  margin-right: 10px;
-}
-
-.problemssolutions-wrapper .contents-details .solution {
-  margin-bottom: 40px;
-}
-
-.problemssolutions-wrapper .contents-details ul li h5 {
-  font-size: var(--font-pc-md);
-  font-weight: 500;
-  margin-bottom: 7px;
-}
-
-.problemssolutions-wrapper .contents-details ul li p {
-  margin-bottom: 5px;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.problemssolutions-wrapper .contents-details ul .z-index-img-wrapper {
-  display: flex;
-  width: 100%;
-  margin: -25px 0px 40px;
-}
-
-.problemssolutions-wrapper .contents-details ul .z-index-img-wrapper img {
-  width: 50%;
-}
-
-.problemssolutions-wrapper .contents-details ul .code-img-wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin: -25px 0px 40px;
-}
-
-.problemssolutions-wrapper .contents-details ul .code-img-wrapper img:nth-child(1) {
-  width: 65%;
-}
-
-.problemssolutions-wrapper .contents-details ul .code-img-wrapper img:nth-child(2) {
-  width: 34%;
-}
-
-/***** problems&solutions *****/
-
+/***** result *****/
 .result-wrapper .result {
   display: flex;
   margin-bottom: 40px;
@@ -341,17 +283,12 @@ header.on {
   margin-bottom: 20px;
 }
 
-.result-wrapper .result .good {
-  margin-right: 70px;
-  width: 45%;
-}
-
 .result-wrapper .result .good p {
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .result-wrapper .result .bad p {
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .result-wrapper .review p {
@@ -374,7 +311,7 @@ header.on {
 
 .view-site-btn-wrapper .view-site-btn {
   border: 1px solid var(--color-black);
-  padding: 10px 40px 5px;
+  padding: 8px 50px 4px;
   border-radius: 10px;
   font-family: 'MangoGrotesque';
   font-weight: 600;
