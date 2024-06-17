@@ -3,6 +3,14 @@ https://seohee423.github.io/portfolio/
 
 ----
 
+## 240615
+#### html
+- 상세페이지 html 마크업 작업
+#### css
+- 상세페이지 css 스타일 작업<br>
+#### js
+- 상세페이지 header 색상 변경 스크롤 이벤트 구현
+
 ## 240614
 #### 디자인
 - 프로젝트 상세페이지 내용 작성<br>
@@ -87,7 +95,7 @@ https://seohee423.github.io/portfolio/
 #### 디자인
 - 디자인 시안 작업 완료
 #### html
-- 디렉토리 구성
+- 디렉토리 구성<br>
 - html 마크업 작업
 
 ## 240526
