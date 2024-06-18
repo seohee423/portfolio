@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+
+.sub-title-wrapper {
+  margin-bottom: 20px;
+}
+
+/***** project info *****/
+.project-info-wrapper {
+  background: url(./images/sub-page/hautmealstudio.png);
+  background-position: 50% 30%;
+  background-size: 140%;
+  background-repeat: no-repeat;
+}
+
+/***** goals *****/
+.goals-wrapper .contents-details .goals {
+  display: flex;
+  align-items: center;
+}
+
+.goals-wrapper .contents-details .goals .flower-icon {
+  margin-right: 10px;
+}
+
+/***** overview *****/
+.overview-wrapper .contents-details .role {
+  margin-bottom: 40px;
+}
+
+.overview-wrapper .contents-details ul {
+  display: flex;
+  gap: 15px;
+}
+
+.overview-wrapper .contents-details .role ul li {
+  padding: 12px 50px;
+  border-radius: 10px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.overview-wrapper .contents-details .work {
+  margin-bottom: 40px;
+}
+
+.overview-wrapper .contents-details .work .work-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.overview-wrapper .contents-details .work .work-list ul {
+  width: 100%;
+}
+
+.overview-wrapper .contents-details .work .work-list ul li {
+  padding: 12px 60px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.overview-wrapper .contents-details .process {
+  margin-bottom: 40px;
+}
+
+.overview-wrapper .contents-details .process ul {
+  display: flex;
+  gap: 50px;
+}
+
+.overview-wrapper .contents-details .process ul li p {
+  line-height: 35px;
+}
+
+.overview-wrapper .contents-details .pdf-link-wrapper {
+  display: flex;
+  gap: 70px;
+}
+
+.overview-wrapper .contents-details .pdf-link-wrapper a {
+  border: 1px solid var(--color-black);
+  padding: 8px 50px 4px;
+  border-radius: 10px;
+  font-family: 'MangoGrotesque';
+  font-weight: 600;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.overview-wrapper .contents-details .pdf-link-wrapper a:hover {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+/***** result *****/
+.result-wrapper .result .good {
+  width: 60%;
+  margin-right: 30px;
+}
+
+.result-wrapper .result .bad {
+  width: 50%;
+}
+
+/***** prototype *****/
+.prototype-wrapper .contents-details {
+  display: flex;
+  gap: 10px;
+}
+.prototype-wrapper .contents-details img {
+  width: calc(25% - 8px)
+}
