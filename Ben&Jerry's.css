@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/***** project info *****/
+.project-info-wrapper {
+  background: url(./images/sub-page/ben&jerrys.png);
+  background-position: 50% 40%;
+  background-size: 101%;
+  background-repeat: no-repeat;
+}
+
+/***** design *****/
+.design-wrapper .contents-details .color .color1 li:nth-child(1) {
+  background-color: #FFC63A;
+  color: var(--color-black);
+}
+
+.design-wrapper .contents-details .color .color1 li:nth-child(2) {
+  background-color: #81BB41;
+  color: var(--color-black);
+}
+
+.design-wrapper .contents-details .color .color1 li:nth-child(3) {
+  background-color: #C7E59E;
+  border: none;
+  color: var(--color-black);
+}
+
+.design-wrapper .contents-details .color .color1 li:nth-child(4) {
+  background-color: #DE6673;
+  color: var(--color-black);
+  border: none;
+}
+
+.design-wrapper .contents-details .color .color2 li:nth-child(1) {
+  background-color: #375D9D;
+  color: var(--color-white);
+  border: none;
+}
+
+.design-wrapper .contents-details .color .color2 li:nth-child(2) {
+  background-color: #E3F4F9;
+  color: var(--color-black);
+  border: 1px solid var(--color-black);
+}
+
+.design-wrapper .contents-details .color .color2 li:nth-child(3) {
+  background-color: #F4ECE9;
+  color: var(--color-black);
+}
+
+.design-wrapper .contents-details .color .color2 li:nth-child(4) {
+  background-color: #13120F;
+  color: var(--color-white);
+}
+
+.design-wrapper .contents-details .font .typography .eng {
+  font-family: 'Clash Display-regular';
+}
+
+.design-wrapper .contents-details .font .font-weight .weight1 li:nth-child(1) {
+  font-weight: 700;
+}
+
+.design-wrapper .contents-details .font .font-weight .weight1 li:nth-child(2) {
+  font-weight: 600;
+}
+
+.design-wrapper .contents-details .font .font-weight .weight1 li:nth-child(3) {
+  font-weight: 500;
+}
+
+.design-wrapper .contents-details .font .font-weight .weight2 li:nth-child(1) {
+  font-weight: 400;
+}
+
+.design-wrapper .contents-details .font .font-weight .weight2 li:nth-child(2) {
+  font-weight: 300;
+}
+
+/***** problems&solutions *****/
+.problemssolutions-wrapper {
+  padding: 100px 0px 30px;
+}
+
+.problemssolutions-wrapper .contents-details .problem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: var(--font-pc-lg);
+  font-weight: 600;
+}
+
+.problemssolutions-wrapper .contents-details .problem .flower-icon {
+  margin-right: 10px;
+}
+
+.problemssolutions-wrapper .contents-details .solution {
+  margin-bottom: 70px;
+}
+
+.problemssolutions-wrapper .contents-details ul li h5 {
+  font-size: var(--font-pc-md);
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+.problemssolutions-wrapper .contents-details ul li p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.problemssolutions-wrapper .contents-details ul .z-index-img-wrapper {
+  display: flex;
+  width: 100%;
+  margin: -50px 0px 70px;
+}
+
+.problemssolutions-wrapper .contents-details ul .z-index-img-wrapper img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.problemssolutions-wrapper .contents-details ul .code-img-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: -50px 0px 70px;
+}
+
+.problemssolutions-wrapper .contents-details ul .code-img-wrapper img {
+  border-radius: 10px;
+}
+
+.problemssolutions-wrapper .contents-details ul .code-img-wrapper img:nth-child(1) {
+  width: 65%;
+}
+
+.problemssolutions-wrapper .contents-details ul .code-img-wrapper img:nth-child(2) {
+  width: 34%;
+}
+
+/***** result *****/
+.result-wrapper .result .good {
+  margin-right: 70px;
+  width: 75%;
+}
