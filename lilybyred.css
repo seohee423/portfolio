@@ -88,3 +88,8 @@
   width: 45%;
   margin-right: 20px;
 }
+
+/***** view site *****/
+.view-site-btn-wrapper a:first-child {
+  margin-right: 15px;
+}

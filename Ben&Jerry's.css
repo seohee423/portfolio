@@ -1,11 +1,19 @@
 @charset "utf-8";
 
+/* ClashDisplay */
+@import url(./assets/font/clash-display.css);
+
 /***** project info *****/
 .project-info-wrapper {
   background: url(./images/sub-page/ben&jerrys.png);
   background-position: 50% 40%;
   background-size: 101%;
   background-repeat: no-repeat;
+}
+
+/***** goals *****/
+.goals-wrapper .contents-details ul li:nth-child(3) span {
+  opacity: 0;
 }
 
 /***** design *****/
@@ -54,7 +62,7 @@
 }
 
 .design-wrapper .contents-details .font .typography .eng {
-  font-family: 'Clash Display-regular';
+  font-family: 'ClashDisplay-Medium';
 }
 
 .design-wrapper .contents-details .font .font-weight .weight1 li:nth-child(1) {
@@ -110,38 +118,58 @@
   font-weight: 400;
 }
 
-.problemssolutions-wrapper .contents-details ul .z-index-img-wrapper {
+.problemssolutions-wrapper .contents-details ul .animation-img-wrapper {
   display: flex;
   width: 100%;
+  gap: 5px;
   margin: -50px 0px 70px;
 }
 
-.problemssolutions-wrapper .contents-details ul .z-index-img-wrapper img {
-  width: 50%;
+.problemssolutions-wrapper .contents-details ul .animation-img-wrapper img {
+  object-fit: cover;
+}
+
+.problemssolutions-wrapper .contents-details ul .animation-img-wrapper img:nth-child(1) {
+  width: 40%;
+  border-radius: 10px;
+}
+.problemssolutions-wrapper .contents-details ul .animation-img-wrapper img:nth-child(2) {
+  width: 60%;
   border-radius: 10px;
 }
 
-.problemssolutions-wrapper .contents-details ul .code-img-wrapper {
+.problemssolutions-wrapper .contents-details ul .slide-img-wrapper {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  gap: 5px;
   margin: -50px 0px 70px;
 }
 
-.problemssolutions-wrapper .contents-details ul .code-img-wrapper img {
+.problemssolutions-wrapper .contents-details ul .slide-img-wrapper img {
   border-radius: 10px;
+  border: 0.5px solid var(--color-black);
+  object-fit: cover;
 }
 
-.problemssolutions-wrapper .contents-details ul .code-img-wrapper img:nth-child(1) {
-  width: 65%;
+.problemssolutions-wrapper .contents-details ul .slide-img-wrapper img:nth-child(1) {
+  width: 80%;
 }
 
-.problemssolutions-wrapper .contents-details ul .code-img-wrapper img:nth-child(2) {
-  width: 34%;
+.problemssolutions-wrapper .contents-details ul .slide-img-wrapper img:nth-child(2) {
+  width: 20%;
 }
+
 
 /***** result *****/
 .result-wrapper .result .good {
-  margin-right: 70px;
-  width: 75%;
+  margin-right: 40px;
+  width: 50%;
+}
+.result-wrapper .result .bad {
+  width: 50%;
+}
+
+/***** view site *****/
+.view-site-btn-wrapper a:first-child {
+  margin-right: 15px;
 }
