@@ -5,6 +5,30 @@ $(document).ready(function () {
   let currentSection = 0;
   let isAnimating = false;
 
+  function updateCurrentSection(index) {
+    currentSection = index;
+    isAnimating = true;
+    $('html, body').stop().animate({
+      scrollTop: $(sections[currentSection]).offset().top
+    }, 800, function () {
+      isAnimating = false;
+    });
+  }
+
+  $('header a').on('click', function (e) {
+    e.preventDefault();
+    const targetId = $(this).attr('href');
+    const targetSection = $(targetId);
+
+    if (targetSection.length) {
+      const targetIndex = sections.index(targetSection);
+
+      if (targetIndex !== -1) {
+        updateCurrentSection(targetIndex);
+      }
+    }
+  });
+
   $(window).on('wheel', function (e) {
     if (isAnimating) {
       return;
@@ -13,20 +37,36 @@ $(document).ready(function () {
     e.preventDefault();
 
     const delta = e.originalEvent.deltaY;
-    isAnimating = true;
 
-    if (delta > 0) {
+    if (delta > 0 && currentSection < numSections - 1) {
       currentSection++;
-    } else {
+    } else if (delta < 0 && currentSection > 0) {
       currentSection--;
     }
 
-    currentSection = Math.max(0, Math.min(currentSection, numSections - 1));
+    updateCurrentSection(currentSection);
+  });
 
-    $('html, body').stop().animate({
-      scrollTop: $(sections[currentSection]).offset().top
-    }, 800, function () {
-      isAnimating = false;
+  $(window).on('scroll', function () {
+    if (isAnimating) {
+      return;
+    }
+
+    let newSectionIndex = currentSection;
+
+    sections.each(function (index, section) {
+      const sectionTop = $(section).offset().top;
+      const sectionHeight = $(section).outerHeight();
+      const scrollTop = $(window).scrollTop();
+
+      if (scrollTop >= sectionTop && scrollTop < sectionTop + sectionHeight) {
+        newSectionIndex = index;
+        return false;
+      }
     });
+
+    if (newSectionIndex !== currentSection) {
+      currentSection = newSectionIndex;
+    }
   });
 });

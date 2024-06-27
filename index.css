@@ -758,8 +758,8 @@ color: #624227;
   width: 100%;
 }
 
-.contact-wrapper .contact-contents-box img {
-  width: 410px;
+.contact-wrapper .contact-contents-box video {
+  width: 396px;
   height: 224px;
   position: relative;
   display: flex;

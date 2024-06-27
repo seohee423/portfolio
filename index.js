@@ -1,3 +1,14 @@
+// 로딩 페이지 화면
+$(document).ready(function() {
+  setTimeout(function() {
+      $('.loader').fadeOut('slow', function() {
+          $('.content').fadeIn('slow');
+          $('html').css('overflow', 'auto');
+      });
+  }, 3000);
+});
+
+
 /* title 이벤트 */
 document.addEventListener("DOMContentLoaded", function () {
   const titleContainers = document.querySelectorAll('.seohee, .portfolio, .about, .project, .skills, .tools, .contact');
