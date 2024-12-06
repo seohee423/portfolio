@@ -5,9 +5,8 @@ $(document).ready(function() {
           $('.content').fadeIn('slow');
           $('html').css('overflow', 'auto');
       });
-  }, 3000);
+  }, 1500);
 });
-
 
 /* title 이벤트 */
 document.addEventListener("DOMContentLoaded", function () {
