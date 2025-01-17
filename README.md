@@ -3,6 +3,10 @@ https://seohee423.github.io/portfolio/
 
 ----
 
+## 250117
+#### html
+- skills&tools 페이지에 웹디자인기능사 자격증 내용 추가 작성
+
 ## 240627
 #### html/css/js
 - 플러그인 활용하여 로딩 페이지 작업<br>
