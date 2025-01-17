@@ -694,6 +694,10 @@ color: #624227;
   font-size: var(--font-pc-sm);
 }
 
+.skillstools-wrapper .skillstools-contents-box .tools li .tool-box {
+  
+}
+
 .skillstools-wrapper .skillstools-contents-box .tools li .tool-box li {
   display: flex;
   justify-content: space-between;
