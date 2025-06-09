@@ -231,6 +231,7 @@
 .about-wrapper .about-imgbox-wrapper .about-imgbox img {
   width: 600px;
   border-radius: 10px;
+  margin: 0 auto; /* 스노우 제출용 */
 }
 
 .about-wrapper .about-imgbox-wrapper .about-seohee {
